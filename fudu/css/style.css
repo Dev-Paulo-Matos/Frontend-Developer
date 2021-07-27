@@ -1,0 +1,102 @@
+*,html,body,input{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 30px;
+    background-color: rgb(230, 139, 178);
+    font-size: 85%;
+}
+.home-page{
+    padding: 20px 30px;
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    
+    list-style: none;
+}
+ul li {
+    width:5rem;
+    padding: 0px 5px;
+    font-weight: 500;
+    font-family: Poppins, sans-serif;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: Poppins;
+}
+.search-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-box div{
+    display: flex;
+    left: 0;
+    border-radius: 50%;
+    background-color: rgb(253, 248, 248);
+    transition: 0.3s;
+    padding: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#search-txt {
+    width: 0px;
+    transition: 0.3s;
+    height: 30px;
+    background-color: rgb(253, 248, 248);
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+}
+.search-box .btn-icon{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: rgb(253, 248, 248);
+    cursor: pointer;
+    transition: 0.2s;
+    margin-right: 15px;
+}
+.search-box .btn-icon:hover{
+    background-color: rgb(221, 219, 216);
+
+}
+/* .search-box div:hover  > #search-txt{
+    width: 160px;
+    padding-left: 10px;
+    background-color: rgb(223, 217, 217);
+}
+.search-box div:hover{
+    width: 200px;
+    border-radius: 40px;
+}
+.search-box button:hover{
+    background-color: rgb(232, 231, 231);
+} */
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    height: 50px;
+    width: 130px;
+    background-color: rgba(245, 128, 128, 0.926);
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 15px;
+}
