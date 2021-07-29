@@ -4,27 +4,27 @@
 
 Criar um Api
 
-- [ ] Iniciar o projeto `npm init -y`
-- [ ] instalar as dependencias `npm i express nodemon cors axios`
-- [ ] Criar uma rota para acessar a API
-- [ ] Servir a API
-- [ ] Habilitar o CORS
-- [ ] Habilitar o Nodemon para reiniciar o Server
+- [X ] Iniciar o projeto `npm init -y`
+- [ X] instalar as dependencias `npm i express nodemon cors axios`
+- [ X] Criar uma rota para acessar a API
+- [ X] Servir a API
+- [ X] Habilitar o CORS
+- [ X] Habilitar o Nodemon para reiniciar o Server
 
 ## Front-End
 
 Consumir API
 
-- [ ] Utilizar fetch para consumir nossa API backend
-- [ ] Utilizar Promisses async/await
-- [ ] Usar try/catch
-- [ ] Mostrar a resposta na tela
+- [ X] Utilizar fetch para consumir nossa API backend
+- [ X] Utilizar Promisses async/await
+- [ X] Usar try/catch
+- [ X] Mostrar a resposta na tela
 
 ## Back-end
 
-- [ ] Jsonplaceholder - Endereço: `https://jsonplaceholder.typicode.com/users`
-- [ ] Usar axios
-- [ ] semelhança entre axios e fetch
+- [ X] Jsonplaceholder - Endereço: `https://jsonplaceholder.typicode.com/users`
+- [ X] Usar axios
+- [X ] semelhança entre axios e fetch
 
 ## Comandos usados
 
