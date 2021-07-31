@@ -14,6 +14,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Roboto:ital,wght@0,300;1,400&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Fudu</title>
 </head>
 
@@ -66,8 +69,8 @@ c51 0 83 -16 101 -49 13 -26 15 -126 15 -814 l0 -783 -27 -55 c-42 -81 -91
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -130,7 +133,7 @@ c51 0 83 -16 101 -49 13 -26 15 -126 15 -814 l0 -783 -27 -55 c-42 -81 -91
 
             </div>
         </header>
-        <section class="home">
+        <section class="home" id="home">
             <div class="title">
                 
                 <h1>Be The Fastest In Delivering Your <strong style="color:crimson;">Food</strong> </h1>
@@ -698,12 +701,76 @@ c51 0 83 -16 101 -49 13 -26 15 -126 15 -814 l0 -783 -27 -55 c-42 -81 -91
             </div>
         </section>
         <main>
-            
+            <div class="menu" id="menu">
+                <div>
+                    <h3>Our Menu</h3>
+                    <h2>Menu Items</h2>
+                </div>
+            </div>
+            <div class="menu-itens">
+                <div class="card" style="width: 18rem;">
+                    <div class="img-over">
 
+                        <img src="./assets/burger-5284887_1920.jpg" class="card-img-top img-card" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="img-over">
+
+                        <img src="./assets/hamburger-1238246_1920.jpg" class="card-img-top img-card" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="img-over">
+
+                        <img src="./assets/hamburger-1281855_1920.jpg" class="card-img-top img-card" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <div class="img-over">
+
+                        <img src="./assets/hamburguer-5829560_1920.jpg" class="card-img-top img-card" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Burger</h5>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-us" id="about-us">
+                <div>
+                    <h3>About Us</h3>
+                    <h2>Fudu</h2>
+                </div>
+                <div>
+                    <p>
+                        FUDU, is a website created by Paulo Machado Fraga Matos in order to present and expose my skills and competencies in web
+                        development, putting into practice all the knowledge I accumulated during the period of studies. FUDU consumes an API
+                        about food.
+                    </p>
+                </div>
+            </div>
         </main>
+        
         <footer>
         </footer>
     </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
