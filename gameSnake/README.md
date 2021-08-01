@@ -5,3 +5,5 @@
 ## Funcionalidades
 
 Jogo com uma variedade de configurações para jogar, criado com a intenção de expor softSkills e capacidade de imaginar e criar.
+
+### Disponivel em url()
