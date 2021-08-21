@@ -1,0 +1,44 @@
+:root {
+  --preto-500: #060709;
+  --preto-300: #060709;
+  --cinza-500: #222326;
+  --cinza-300: #65646b;
+  --cinza-100: #938e92;
+}
+.color1 {
+  color: #060709;
+}
+.color2 {
+  color: #222326;
+}
+.color3 {
+  color: #434342;
+}
+.color4 {
+  color: #65646b;
+}
+.color5 {
+  color: #938e92;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--cinza-500);
+}
+.layout {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas:
+    "nav main search"
+    "nav main search"
+    "nav main search";
+  grid-template-rows: 100% 100% 100%;
+  grid-template-columns: 1fr 4fr 2fr;
+}
